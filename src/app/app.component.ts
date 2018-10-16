@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  users = ['Juan', 'Luis', 'Pedro', 'Maria']
   title = 'MiPrimerAppAngular6';
+  flgEstado = true;
 }

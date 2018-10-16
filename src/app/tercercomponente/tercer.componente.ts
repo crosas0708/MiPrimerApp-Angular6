@@ -6,5 +6,5 @@ import { Component } from '@angular/core'
     styleUrls: ['./tercer.componente.css']
 })
 export class TercerComp {
-    titulo: "Mi titulo personalizado !!"
+    titulo = "Mi titulo personalizado !!"
 }
