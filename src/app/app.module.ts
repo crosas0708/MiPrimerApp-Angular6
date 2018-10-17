@@ -7,6 +7,7 @@ import { SegundoComp } from './segundocomponente/segundo.component';
 import { TercerComp } from './tercercomponente/tercer.componente';
 import { CuartoComponent } from './cuarto/cuarto.component';
 import { UsuarioComponent } from './usuario/usuario.component';
+import { Usuario2Component } from './usuario2/usuario2.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { UsuarioComponent } from './usuario/usuario.component';
     SegundoComp,
     TercerComp,
     CuartoComponent,
-    UsuarioComponent
+    UsuarioComponent,
+    Usuario2Component
   ],
   imports: [
     BrowserModule

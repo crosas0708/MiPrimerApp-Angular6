@@ -29,7 +29,14 @@
 </div>
 <h1 *ngIf="flgEstado">Etiqueta mostrada segun directiva "IF"</h1>
 <div>
-    <ul>
-      <li *ngFor="let user of users"><app-usuario></app-usuario></li>
-    </ul>
-  </div>
+  <ul>
+    <li *ngFor="let user of users">
+      <app-usuario [nombreUsu]="user"></app-usuario>
+    </li>
+  </ul>
+</div>
+<div>
+  <ul>
+    <app-usuario2 *ngFor="let user of users" [nameUsu]="user"></app-usuario2>
+  </ul>
+</div>
