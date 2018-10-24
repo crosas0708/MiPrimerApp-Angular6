@@ -28,7 +28,7 @@ export class AppComponent {
       calle:'calle los naranjos 54',
       ciudad:'lima'
     }
-    this.hobbies=['nadar', 'leer', 'saltar', 'cine']
+    this.hobbies=['nadar', 'leer', 'saltar', 'cine', 'billar'];
   }
 
 }
